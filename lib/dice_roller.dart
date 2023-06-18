@@ -44,7 +44,19 @@ class _DiceRollerState extends State<DiceRoller> {
             ),
           ),
           // 設定按鈕文字為 Roll Dice
-          child: const Text('Roll Dice'),
+          child: const Text(
+            'Roll Dice',
+            style: TextStyle(
+              // 新增文字陰影
+              shadows: <Shadow>[
+                Shadow(
+                  offset: Offset(1.0, 1.5),
+                  blurRadius: 2.5,
+                  color: Color.fromARGB(255, 0, 0, 0),
+                ),
+              ],
+            ),
+          ),
         )
       ],
     );
