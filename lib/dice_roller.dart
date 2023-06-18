@@ -12,7 +12,9 @@ class _DiceRollerState extends State<DiceRoller> {
   var activeDiceImage = 'assets/Images/dice-6.png';
 
   void rollDice() {
-    activeDiceImage = 'assets/Images/dice-2.png';
+    setState(() {
+      activeDiceImage = 'assets/Images/dice-2.png';
+    });
   }
 
   Widget build(context) {
