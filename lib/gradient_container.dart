@@ -7,9 +7,10 @@ const endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.color1, this.color2, {super.key});
 
-  const GradientContainer.purple({super.key})
-      : color1 = Colors.deepPurple,
-        color2 = Colors.indigo;
+  // 範例：預先定義元件顏色
+  // const GradientContainer.purple({super.key})
+  //     : color1 = Colors.deepPurple,
+  //       color2 = Colors.indigo;
 
   final Color color1;
   final Color color2;
@@ -33,7 +34,7 @@ class GradientContainer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(
-              'assets/images/dice-4.png',
+              'assets/images/dice-3.png',
               width: 200,
             ),
             TextButton(

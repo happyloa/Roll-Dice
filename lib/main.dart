@@ -7,6 +7,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
+        // 使用 Gradient Container 元件並指定顏色
         body: GradientContainer(
           Colors.cyan,
           Colors.yellow,
