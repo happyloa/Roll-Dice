@@ -1,16 +1,8 @@
-# roll_dice
+# 擲骰子 App - Flutter
 
-A new Flutter project.
+這是一個用 Flutter 撰寫的擲骰子 App，此為 Udemy 的線上課程內的其中一個專案。
 
-## Getting Started
+## 如何在本地端預覽？
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 首先要先在電腦上安裝 [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- 將專案 Clone 下來後，透過 VSCode 的除錯工具，即可在本地端預覽專案。
